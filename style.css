@@ -8,6 +8,27 @@ q {
     font-size: 20px;
     font-style: italic;
 }
+/*Correction 7*/
+.tc-white {
+    color: white!important;
+}
+
+.bloc {
+    width:auto;
+}
+
+.contact
+{
+    margin: auto
+}
+
+.center
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
 /* Fin Corrections */
 body {
     margin: 0;
@@ -99,11 +120,6 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-}
-
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -665,10 +681,6 @@ a {
     color: #575757!important;
 }
 
-.container {
-    max-width: 1000px;
-}
-
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -779,11 +791,7 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
-}
-
-.tc-white {
-    color: #F3976C!important;
-}
+} 
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -816,9 +824,6 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
