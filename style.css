@@ -29,6 +29,9 @@ q {
     text-align: center;
     flex-direction: column;
 }
+.white {
+    color: black;
+}
 /* Fin Corrections */
 body {
     margin: 0;
@@ -754,9 +757,6 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
-}
 
 .portfolio-thumb {
     margin-bottom: 24px;
